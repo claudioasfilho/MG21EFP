@@ -177,10 +177,10 @@ int SPImain(void)
     LDMA_StartTransfer(RX_LDMA_CHANNEL, &ldmaRXConfig, &ldmaRXDescriptor);
     LDMA_StartTransfer(TX_LDMA_CHANNEL, &ldmaTXConfig, &ldmaTXDescriptor);
 
-#if 0
+#if 1
     // Wait in EM1 until all data is received
     while (!rx_done){
-    	EMU_EnterEM3(1);
+    	EMU_EnterEM2(1);
     }
 #endif
   }

@@ -250,6 +250,7 @@ void appMain(gecko_configuration_t *pconfig)
   pconfig->sleep.flags = 0;
 #endif
 
+  efp_setup();
 
   SPImain();
 
