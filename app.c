@@ -30,6 +30,8 @@
 
 #include "infrastructure.h"
 
+#include "SPI-DMA.h"
+
 /* Print boot message */
 static void bootMessage(struct gecko_msg_system_boot_evt_t *bootevt);
 
@@ -248,12 +250,18 @@ void appMain(gecko_configuration_t *pconfig)
   pconfig->sleep.flags = 0;
 #endif
 
+
+  SPImain();
+
   /* Initialize debug prints. Note: debug prints are off by default. See DEBUG_LEVEL in app.h */
   initLog();
  // wakeup_process_time_overhead = 10000;
 
+
   /* Initialize stack */
   gecko_init(pconfig);
+
+
 
   while (1) {
     /* Event pointer for handling events */

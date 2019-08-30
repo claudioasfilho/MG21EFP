@@ -16,8 +16,8 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-app/bluetooth/common/util \
 . \
+app/bluetooth/common/util \
 efp \
 hardware/kit/common/bsp \
 hardware/kit/common/drivers \

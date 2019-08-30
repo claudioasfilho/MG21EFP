@@ -1,10 +1,4 @@
-app.o: ../app.c \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_types.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/soc/native_gecko.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hal-config.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/board_features.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/ble-configuration.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hardware/kit/EFR32MG21_BRD4180A/config/hal-config-board.h \
+SPI-DMA.o: ../SPI-DMA.c ../SPI-DMA.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/Device/SiliconLabs/EFR32MG21/Include/em_device.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/Device/SiliconLabs/EFR32MG21/Include/efr32mg21a020f1024im32.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/CMSIS/Include/core_cm33.h \
@@ -58,45 +52,17 @@ app.o: ../app.c \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/Device/SiliconLabs/EFR32MG21/Include/efr32mg21_prs_signals.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/Device/SiliconLabs/EFR32MG21/Include/efr32mg21_dma_descriptor.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/Device/SiliconLabs/EFR32MG21/Include/efr32mg21_ldmaxbar_defines.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/halconfig/inc/hal-config/hal-config-types.h \
+ /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_chip.h \
+ /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_system.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_gpio.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_bus.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_assert.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hal-config-app-common.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/gecko_configuration.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_gattdb_def.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_types.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_errorcodes.h \
- ../gatt_db.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_gattdb_def.h \
- ../app.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/efp/sl_efpdrv.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hardware/kit/common/drivers/i2cspm.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hardware/kit/common/halconfig/i2cspmhalconfig.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_i2c.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/efp/sl_efpdrv_config.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/efp/sl_efp01.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_cmu.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_gpio.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_common.h \
- ../infrastructure.h ../SPI-DMA.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_chip.h \
- /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_system.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_emu.h \
+ /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_gpio.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_ldma.h \
  /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_usart.h
 
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_types.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/soc/native_gecko.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hal-config.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/board_features.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/ble-configuration.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hardware/kit/EFR32MG21_BRD4180A/config/hal-config-board.h:
+../SPI-DMA.h:
 
 /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/Device/SiliconLabs/EFR32MG21/Include/em_device.h:
 
@@ -204,7 +170,9 @@ app.o: ../app.c \
 
 /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/Device/SiliconLabs/EFR32MG21/Include/efr32mg21_ldmaxbar_defines.h:
 
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/halconfig/inc/hal-config/hal-config-types.h:
+/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_chip.h:
+
+/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_system.h:
 
 /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_gpio.h:
 
@@ -212,49 +180,9 @@ app.o: ../app.c \
 
 /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_assert.h:
 
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hal-config-app-common.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/gecko_configuration.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_gattdb_def.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_types.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_errorcodes.h:
-
-../gatt_db.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/protocol/bluetooth/ble_stack/inc/common/bg_gattdb_def.h:
-
-../app.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/efp/sl_efpdrv.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hardware/kit/common/drivers/i2cspm.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/hardware/kit/common/halconfig/i2cspmhalconfig.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_i2c.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/efp/sl_efpdrv_config.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/efp/sl_efp01.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_cmu.h:
+/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_emu.h:
 
 /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_gpio.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_common.h:
-
-../infrastructure.h:
-
-../SPI-DMA.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_chip.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_system.h:
-
-/Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_emu.h:
 
 /Users/clfilho/SimplicityStudio/Apr19_Workspace/soc-empty-efp01-efr32xg21/platform/emlib/inc/em_ldma.h:
 
